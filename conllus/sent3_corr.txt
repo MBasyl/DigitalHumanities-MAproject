@@ -1,0 +1,19 @@
+# sent3_correcta = protinusque vinculo, quo fueram deligatus, abrupto, cursu me proripio totis pedibus, ad tutelam salutis crebris calcibus velitatus.
+1	protinus	protinus	ADV	Df	_	10	advmod	_	SpaceAfter=No|TokenRange=0:8
+2	que	que	CCONJ	C-	_	10	cc	_	TokenRange=8:11
+3	vinculo	vinculo	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	7	nsubj:pass	_	TokenRange=12:20
+4	quo	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	3	acl	_	TokenRange=21:24
+5	fueram	sum	AUX	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin|Voice=Act	6	aux:pass	_	TokenRange=25:31
+6	deligatus	deligo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	obl	_	TokenRange=32:42
+7	abrupto	abruptus	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=43:51
+8	cursu	cursus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	10	advmod	_	TokenRange=52:57
+9	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	obj	_	TokenRange=58:60
+10	proripio	proripium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	0	root	_	TokenRange=61:69
+11	totis	totus	ADJ	A-	Case=Abl|Degree=Pos|Number=Plur	12	amod	_	TokenRange=70:75
+12	pedibus	peds	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	10	obl	_	TokenRange=76:84
+13	ad	ad	ADP	R-	_	14	case	_	TokenRange=85:87
+14	tutelam	tutela	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	TokenRange=88:95
+15	salutis	salus	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	TokenRange=96:103
+16	crebris	creber	ADJ	A-	Case=Abl|Degree=Pos|Number=Plur	17	amod	_	TokenRange=104:111
+17	calcibus	calx	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	18	obl	_	TokenRange=112:120
+18	velitatus.	velito	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	SpacesAfter=\s\r\n|TokenRange=121:131

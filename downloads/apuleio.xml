@@ -1,0 +1,315 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="corpus"> 
+        <fileDesc>
+            <titleStmt>
+                <title> Metamorphoses </title>
+                <title type="subtitle"> aut Asinus Aureus </title>
+                <author>Lucius Apuleius Madaurensis</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital Humanities course edition, <date>June 2023</date></edition>
+                <respStmt>
+                    <resp>Annotation by </resp> <name>Matilde Basilicati</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Pavia University Press </publisher>
+                <pubPlace>Pavia, Italy </pubPlace>
+                <date>2023</date>
+                <idno type="ISBN">X-XXX-XXXXX-X</idno>
+                <availability>
+                    <p><!-- add copyright information --></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="en">
+                    <monogr>
+                        <author>Stephen Gaselee.</author>
+                        <title>Apuleius.</title>
+                        <title type="sub">The Golden Ass, being the Metamorphoses of Lucius Apuleius.</title>
+                        <imprint>
+                            <pubPlace>Keyboarding</pubPlace>
+                            <publisher>London: William Heinemann; New York: G.P. Putnam's Sons.</publisher>
+                            <date when="1916">1915</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <front>
+            <div>
+                <head>METAMORPHOSES</head>
+                <p>L'opera integrale è uno dei tre romanzi latini a noi pervennuti, divisa in undici libri. 
+                Il titolo secondario di 'Asino d'oro' (Asinus aureus), è usato per la prima 
+                volta da Agostino di Ippona (354 – 430) nel De civitate Dei (XVlll, 18). 
+                </div>
+        </front>
+        
+        <body>
+            <div1 type="Latin text">
+                <div2 type="book" n="9">
+                    <head>LIBER IX</head>
+                    <div3 type="chapter" n="1">
+                        <p>Sic ille nequissimus carnifex contra me manus impias obarmabat, at ego, praecipitante consilium periculi 
+                        tanti praesentia nec expectata diutina cogitatione, lanienam imminentem fuga vitare statui; protinusque vinculo, 
+                        quo fueram deligatus, abrupto, cursu me proripio totis pedibus, ad tutelam salutis crebris calcibus velitatus; 
+                        illicoque me, raptim transcursa proxima porticu, triclinio, in quo dominus aedium sacrificales epulas cum 
+                        sacerdotibus deae cenitabat, incunctanter immitto nec pauca rerum apparatus cibarii, mensas etiam et ignes 
+                        impetu meo collido atque disturbo. Qua rerum deformi strage paterfamilias commotus, ut importunum atque lascivum 
+                        me cuidam famulo curiose traditum certo aliquo loco clausum iubet cohiberi, ne rursum convivium placidum simili 
+                        petulantia dissiparem. Hoc astutulo commento scitule munitus et mediis lanii manibus ereptus custodēla salutaris 
+                        mihi gaudebam carceris. Sed nimirum nihil Fortuna renuente licet homini nato dexterum provenire, nec consilio 
+                        prudenti vel remedio sagaci divinae providentiae fatalis dispositio subverti vel reformari potest. Mihi denique 
+                        id ipsum commentum, quod momentariam salutem repperisse videbatur, periculum grande, immo praesens exitium 
+                        conflavit aliud.</p>                    
+                    </div3>
+                    <div3 type="chapter" n="2">
+                        <p>Nam quidam subito puer mobili ac trepida facie percitus, ut familiares inter se susurrabant, irrumpit triclinium 
+                        suoque annuntiat domino de proxumo angiportu canem rabidam paulo ante per posticam impetu miro sese direxisse
+                        ardentique prorsus furore venaticos canes invasisse, ac dehinc proxumum petisse stabulum atque ibi pleraque 
+                        iumenta incurrisse pari saevitia, nec postremum saltem ipsis hominibus pepercisse. Nam Myrtilum mulionem et 
+                        Hephaestionem cocum et Hypnophilum cubicularium et Apollonium medicum, immo vero et plures alios ex familia abigere 
+                        temptantes variis morsibus quemque lacerasse, certe venenatis morsibus contacta nonnulla iumenta efferari simili 
+                        rabie. Quae res omnium statim percussit animos, ratique me etiam eadem peste infectum ferocire, arreptis cuiuscemodi
+                        telis mutuoque ut exitium commune protelarent cohortati, ipsi potius eodem vesaniae morbo laborantes persequuntur. 
+                        Nec dubio me lanceis illis vel venabulis, immo vero et bipennibus, quae facile famuli subministraverant, 
+                        membratim compilassent, ni respecto subiti periculi turbine cubiculum, in quoi mei domini devertebant, 
+                        protinus irrupissem. Tunc clausis obseratisque super me foribus obsidebant locum, quoad sine ullo 
+                        congressionis suae periculo pestilentiae letalis pervicaci rabie possessus ac peresus absumerer. Quo facto tandem 
+                        libertatem nanctus, solitariae fortunae munus amplexus, super constratum lectum abiectus post multum equidem 
+                        temporis somnum humanum quievi.</p>
+                    </div3>
+                    <div3 type="chapter" n="3">
+                        <p>Iamque clara die, mollitie cubiculi refota lassitudine, vegetus exsurgo atque illos, qui meae tutelae pervigiles 
+                        excubias agitaverant, ausculto de meis sic altercare fortunis: <q>Adhuccine miserum istum asinum iugi furore iactari 
+                        credimus? Immo vero iam virus increscente saevitia prorsus extinctum.</q> Sic opinionis variae terminum ad 
+                        explorationem conferunt ac de rima quadam prospiciunt sanum me atque sobrium otiose consistere. Iamque ultro 
+                        foribus patefactis plenius an iam sim mansuefactus periclitantur. Sed unus ex his, de caelo scilicet missus mihi 
+                        sospitator, argumentum explorandae sanitatis meae tale commonstrat ceteris, ut aquae recentis completam pelvem 
+                        offerrent potui meo, ac si intrepidus et more solito sumens aquis allibescerem, sanum me atque omni morbo scirent 
+                        expeditum. contra vero si visum contactumque laticis vitarem ac perhorrescerem, pro comperto noxiam rabiem 
+                        pertinaciter durare. hoc enim libris etiam pristinis proditum observari solere.</p>
+                    </div3>
+                    <div3 type="chapter" n="4">
+                        <p>Isto placito vas immane confestim aquae pellucidae de proxumo petitae fonte cunctantes adhuc offerunt mihi. 
+                        At ego sine ulla mora progressus etiam obvio gradu satis sitienter pronus et totum caput inferens salutares vere 
+                        equidem illas aquas hauriebam. Iamque et plausus manum et aurium flexus et ductum capistri et quidvis aliud 
+                        periclitantium placide patiebar, quoad contra vesanam eorum praesumptionem modestiam meam liquido cunctis approbarem. 
+                        Ad istum modum vitato duplici periculo, die sequenti rursum divinis exuviis onustus cum crotalis et cymbalis 
+                        circumforaneum mendicabulum producor ad viam. Nec paucis casulis atque castellis oberratis devertimus ad quempiam 
+                        pagum urbis opulentae quondam, ut memorabant incolae, inter semiruta vestigia conditum, et hospitio proxumi stabuli 
+                        recepti cognoscimus lepidam de adulterio cuiusdam pauperis fabulam, quam vos etiam cognoscatis volo.</p>
+                    </div3>
+                    <div3 type="chapter" n="5">
+                        <p>Is gracili pauperie laborans fabriles operas praebendo parvis illis mercedibus vitam tenebat. Erat ei tamen uxorcula 
+                        etiam, satis quidem tenuis et ipsa, verum tamen postrema lascivia famigerabilis. Sed die quadam dum matutino ille 
+                        ad opus susceptum proficiscitur, statim latenter irrepit eius hospitium temerarius adulter. ac dum Veneris 
+                        colluctationibus securius operantur, maritus ignarus rerum ac nihil etiam tum tale suspicans improvisus hospitium 
+                        repetit. Iamque clausis et obseratis foribus uxoris laudata continentia ianuam pulsat, sibilo etiam praesentiam 
+                        suam denuntiante: tunc mulier callida et ad huiusmodi flagitia perastutula tenacissimis amplexibus expeditum hominem 
+                        dolio, quod erat in angulo semiobrutum sed alias vacuum, dissimulanter abscondit, et patefactis aedibus adhuc 
+                        introeuntem maritum aspero sermone accipit: <q>Siccine vacuus et otiosus insinuatis manibus ambulabis mihi nec 
+                        obito consueto labore vitae nostrae prospicies et aliquid cibatui parabis? At ego misera pernox et per diem 
+                        lanificio nervos meos contorqueo, ut intra cellulam nostram saltem lucerna luceat. Quanto me felicior Daphne vicina, 
+                        quae mero et prandio matutino saucia cum suis adulteris volutatur!</q></p>
+                    </div3>
+                    <div3 type="chapter" n="6">
+                        <p>Sic confutatus maritus <q>Et quid istic est?</q> ait <q>Nam licet forensi negotio officinator noster 
+                        attentus ferias nobis fecerit, tamen hodiernae cenulae nostrae prospexi. Vides istud dolium, quod semper 
+                        vacuum frustra locum detinet tantum et re vera praeter impedimentum conversationis nostrae nihil praestat 
+                        amplius? Istud ego quinque denariis cuidam venditavi; et adest, ut dato pretio secum rem suam ferat. 
+                        Quin itaque praecingeris mihique manum tantisper accommodas, ut exobrutum protinus tradatur emptori.</q> 
+                        E re nata fallaciosa mulier temerarium tollens cachinnum <q>Magnum</q> inquit <q>Istum virum ac strenuum 
+                        negotiatorem nacta sum, qui rem, quam ego mulier et intra hospitium contenta iamdudum septem denariis vendidi, 
+                        minoris distraxit.</q> Additamento pretii laetus maritus <q>Et quis est ille,</q> ait 
+                        <q>Qui tanto praestinavit?</q> At illa <q>Olim, inepte,</q> inquit <q>Descendit in dolium sedulo 
+                        soliditatem eius probaturus.</q></p>
+                    </div3>
+                    <div3 type="chapter" n="7">
+                        <p>Nec ille sermoni mulieris defuit sed exsurgens alacriter <q>Vis</q> inquit <q>Verum scire, materfamilias? 
+                        Hoc tibi dolium nimis vetustum est et multifariam rimis hiantibus quassum</q>; ad maritumque eius dissimulanter 
+                        conversus <q>Quin tu, quicunque es homuncio, lucernam </q> ait <q>Actutum mihi expedis, ut erasis intrinsecus 
+                        sordibus diligenter an aptum usui possim dinoscere, nisi nos putas aes de malo habere?</q> Nec quicquam moratus 
+                        ac suspicatus acer et egregius ille maritus, accensa lucerna, <q>Discede,</q> inquit <q>Frater, et otiosus 
+                        assiste, donec probe procuratum istud tibi repraesentem,</q> et cum dicto nudatus ipse, delato lumine, scabiem 
+                        vetustam cariosae testae occipit exculpere. At vero adulter, bellissimus ille pusio, inclinatam dolio pronam 
+                        uxorem fabri superincurvatus secure dedolabat. Ast illa capite in dolium demisso maritum suum astu meretricio 
+                        tractabat ludicre: hoc et illud et aliud et rursus aliud purgandum demonstrat digito suo, donec utroque opere 
+                        perfecto, acceptis septem denariis, calamitosus faber collo suo gerens dolium coactus est ad hospitium adulteri 
+                        perferre.</p>
+                    </div3>
+                    <div3 type="chapter" n="8">
+                        <p>Pauculis ibi diebus commorati et munificentia publica saginati vaticinationisque crebris 
+                        mercedibus suffarcinati purissimi illi sacerdotes novum quaestus genus sibi comminiscuntur. 
+                        Sorte unica pro casibus pluribus enotata consulentes de rebus variis plurimos ad hunc modum 
+                        cavillantur. Sors haec erat: Ideo coniuncti terram proscindunt boves, ut in futurum laeta 
+                        germinent sata. Tum si qui matrimonium forte coaptantes interrogarent, rem ipsam responderi 
+                        aiebant iungendos connubio et satis liberum procreandis. Si possessiones praestinaturus quaereret, 
+                        merito boves ut et iugum et arva sementis florentia pronuntiari. Si qui de profectione sollicitus 
+                        divinum caperet auspicium, iunctos iam paratosque quadripedum cunctorum mansuetissimos et lucrum 
+                        promitti de glebae germine. Si proelium capessiturus vel latronum factionem persecuturus utiles 
+                        necne processus sciscitaretur addictam victoriam forti praesagio contendebant, quippe cervices 
+                        hostium iugo subactum iri et praedam de rapinis uberrimam fructuosamque captum iri. Ad istum modum 
+                        divinationis astu captioso corraserant non parvas pecunias.</p>
+                    </div3>
+                    <div3 type="chapter" n="9">
+                        <p>Sed assiduis interrogationibus argumento satietate iam defecti, rursum ad viam prodeunt, 
+                        via tota quam nocte confeceramus longe peiorem. Quidni? Lacunosis incilibus voraginosam, partim 
+                        stagnanti palude fluidam et alibi subluvie caenosa lubricam. Crebris denique offensaculis et 
+                        assiduis lapsibus iam contusis cruribus meis vix tandem ad campestres semitas fessus evadere potui. 
+                        Et ecce nobis repente de tergo manipulus armati supercurrunt equites, aegreque cohibita equorum c
+                        urriculi rabie, Philebum ceterosque comites eius involant avidi colloque constricto et sacrilegos 
+                        impurosque compellantes interdum pugnis obverberant, necnon manicis etiam cunctos coartant et 
+                        identidem ingenti sermone comprimunt, promerent potius aureum cantharum, promerent auctoramentum 
+                        illud sui sceleris, quod simulatione sollemnium, quae in operto factitaverant, ab ipsis pulvinaribus 
+                        matris deum clanculo furati, prorsus quasi possent tanti facinoris evadere supplicium tacita 
+                        profectione, adhuc luce dubia pomerium pervaserint.</p>
+                    </div3>
+                    <div3 type="chapter" n="10">
+                        <p>Nec defuit qui, manu super dorsum meum iniecta, in ipso deae quam gerebam gremio scrutatus, 
+                        repperiret atque incoram omnium aureum depromeret cantharum. Nec isto saltem tam nefario scelere 
+                        impuratissima illa capita confutari terrerive potuere, sed mendacioso risu cavillantes, <q>En</q> 
+                        inquiunt <q>Indignae rei scaevitatem, qua plerumque insontes periclitantur homines! Propter unicum 
+                        caliculum, quem deum mater sorori suae deae Syriae hospitale munus obtulit, noxios religionis 
+                        antistites ad discrimen vocari capitis!</q> Haec et alias similes afannas frustra blaterantes eos 
+                        retrorsus abducunt pagani statimque vinctos in Tullianum compingunt cantharoque et ipso simulacro, 
+                        quod gerebant, apud fani donarium redditis ac consecratis, altera die productum me rursum voce 
+                        praeconis venui subiciunt septemque nummis carius, quam prius me comparaverat Philebus, 
+                        quidam pistor de proximo castello praestinavit, protinusque frumento etiam coempto affatim onustum 
+                        per iter arduum, scrupis et cuiuscemodi stirpibus infestum ad pistrinum, quod exercebat, perducit.</p>
+                    </div3>
+
+                </div2>
+            </div1>
+            <div1 type="Italian Translation">
+                <div2 type="book" n="9">
+                    <head>LIBRO 9</head>
+                    <div3 type="chapter" n="1">
+                        <p>Così quel crudelissimo carnefice armava contro di me le mani empie, e io, poiché la presenza di tanto 
+                        grande pericolo precivitava la decisione e non avendo dilungato la meditazione a lungo, decisi di evitare 
+                        l’imminente macellazione con la fuga; e subito rotta la catena con la quale ero stato legato (dall’alto), 
+                        di corsa mi lanciai fuori con tutti i piedi, avendo combattuto (come i veliti) con continui calci per 
+                        la difesa della salvezza; immediatamente, percorrendo di corsa il portico vicino, senza esitazione entro 
+                        nella sala da pranzo nella quale il padrone stava pranzando con i cibi sacrificali degli altari insieme 
+                        ai sacerdoti della dea, né apparecchiato con poche vivande, e con la mia foga urto e rovescio di qua e 
+                        di là i tavoli e anche le fiaccole. E il padrone scosso da quella brutta distruzione delle cose, 
+                        affidatomi con cura ad un servo come fastidioso e sfrenato, ordinò che venissi rinchiuso in un qualche 
+                        luogo sicuro, affinchè non disperdessi di nuovo con simile sfrontatezza il tranquillo convivio. 
+                        Con questa trovata furbetta protetto in maniera elegante e strappato dal mezzo delle mani del mecellaio, 
+                        godevo della sorveglianza del carcere benefico. Ma proprio (ironico) nulla, con la Sorte che fa segno di no, può capitare di favorevole ad un uomo mortale, né l’ordinamento del fato della provvidenza divina può essere capovolto o modificato da una decisione provveduta o un accorto rimedio. Infine, questa stesta trovata, che a me sembrava aver ottenuto momentanea salvezza, incendiò un grande pericolo, anzi un’altra fine incompente.   </p>
+                    </div3>
+                    <div3 type="chapter" n="2">
+                        <p>Infatti, immediatamente, un certo fanciullo, mosso tutto da una faccia espressiva e impaurita, 
+                        mentre gli amici sussurravano tra loro, irruppe nella sala e annuncia al suo padrone che poco prima 
+                        dal vicolo vicino con sorprendente foga una cagna rabbiosa si era diretta attraverso il portico e 
+                        diretta si era lanciata contro i cani da caccia con una furia bruciante, e da là aveva raggiunto 
+                        la stalla vicina e lì aveva assalito con pari crudeltà la maggior parte del bestiame, né da ultimo 
+                        aveva risparmiato nemmeno gli stessi umani: infatti Mirtilo il mulattiere ed Efestione il cuoco e 
+                        Ipnofilo il cameriere e Apollonio il medico, in verità anzi molti altri dei domestici che cercavano 
+                        di cacciarla via aveva lacerato ciascuno con vari morsi, di certo qualche bestia contagiata con morsi 
+                        che avvelenano era stata resa furiosa dalla stessa rabbia. Questa cosa scosse subito gli animi di 
+                        tutti, e ritenendo questi che anche io, infetto dalla stessa malattia, impazzissi, afferrati 
+                        ogni tipo di armi ed esortandosi mutualmente a scacciare la comune rovina, mi inseguono venendo 
+                        afflitti più loro per questa stessa malattia della follia. Senza dubbio con quelle lance e spiedi, 
+                        anzi in verità anche scuri a doppio taglio, che agilmente i servi fornivano, mi avrebbero pelato 
+                        membro a membro, se io, vista dietro la tempesta di esposto pericolo non fossi entrato a forza 
+                        subito dentro la stanza nella quale i miei padroni alloggiavano. Allora, chiuse e poi sprangate le 
+                        porte dietro di me, assediavano il luogo, fino a quando senza alcun pericolo per il loro assalto, 
+                        essendo posseduto e consumato da una ostinata rabbia di letale malattia, io morissi. Di fatto tuttavia, 
+                        trovata per caso la libertà, abbracciato il dono della fortuna solitaria, gettato sopra il letto ricoperto 
+                        dopo davvero molto tempo, riposai un sonno umano. </p>
+                    </div3>
+                    <div3 type="chapter" n="3">
+                        <p>Mi svegliai rinvigorito quando già il giorno era chiaro, la stanchezza risotorata dalla 
+                        morbidezza del letto e ascolto quelli che montavano la guardia svegli per la mia difesa, 
+                        discutere così sulle mie sorti: <q>Crediamo ancora che codesto povero asino continui a essere 
+                        scovolto dalla pazzia? In vertà ormai la malattia accrescendo la crudeltà lo avrà del tutto 
+                        ucciso.</q> Così al termine delle varie opinioni, si dedicano all’esplorazione e da una certa 
+                        fessura scorgono che sano e sobrio riposo oziosamente. E aperte le porte ormai un po' 
+                        oltre testarono più pienamente se già mi fossi tranquillizzato. Ma uno di loro, certamente un 
+                        salvatore inviatomi dal cielo, indicò chiaramente agli altri la prova per indagare la mia 
+                        salute tale che mi avrebbero offerto da bere un catino colmo di acqua fresca, e se senza timore
+                         e prendendola con usuale abitudine avvessi gradito l’acqua, avrebbero saputo che ero sano e 
+                         liberato da ogni malattia. Al contrario se avessi evitato la vista e il contatto con il 
+                         liquido e fossi tremato tutto, sapevano per certo che la rabbia dannosa 
+                         durava ostinatamente. Questo infatti solve essere osservato come tramandato anche in libri 
+                         anche antichi. </p>
+                    </div3>
+                    <div3 type="chapter" n="4">
+                        <p>Con questa idea immediatamente un enorme vaso di acqua totalmente limpida presa dalla 
+                        fonte ficina mi offrirono ancora esitanti. Ma io senza alcuna remora avvicinatomi anche 
+                        abbastanza con passo facile avidamente prono e spingendo dentro tutta la testa bevevo di 
+                        certo giustamente quell’acqua salutifera. E già sopportavo placidamente i colpi delle mani 
+                        e le piegature delle orecchie e il tirare della cavezza e qualsiasi altra cosa delle prove, 
+                        finchè comprovai a tutti quanti con il liquido la mia docilità di fronte alla loro supposizione
+                         insana. In questo modo avendo evittato un duplice pericolo, il giorno seguente di nuovo 
+                         caricato degli attributi divini, con cembali e nacchere venivo guidato avanti per la strada 
+                         come un mendicante che gira per la piazza. Avendo vagato davanti a non poche casette e villaggi, 
+                         alloggiammo ad un certo borgo, di una un tempo ricca città, come ricordavano gli abitanti, fondato tra 
+                         le rovine semidiroccate, e accolti come ospiti di una vicina locanda, veniamo a conoscenza di una piacevole 
+                         storia su un adulterio di un certo pover’uomo, la quale voglio che anche voi conosciate.</p>
+                    </div3>
+                    <div3 type="chapter" n="5">
+                        <p>Egli, magro per la povertà, fabbricando manufatti da fabbro, viveva con fornire quelle piccole merci. 
+                        Aveva lui tuttavia anche una mogliettina, abbastanza esile anche lei, tuttavia famigerata per la sua 
+                        estrema lussuria. Ma un certo giorno mentre lui di mattina partì per intraprendere il lavoro, subito di 
+                        nascosto si insinuò nella sua casa un imprudente adultero. E mentre si occupavano totalmente tranquilli 
+                        delle lotte di Venere, il marito ignaro della situazione e per nulla sospettando allora anche tale cose, 
+                        tornò all’improvviso a casa. Ed essendo già chiuse e sprangate le porte, lodata la moderazione della moglie,
+                        si mise a bussare alla porta, annunciando anche la sua presenza con un fischio. Allora la donna, asuta e assai 
+                        furbetta in misfatti di tal genere, sciolto l’uomo dai fortissimi abbracci, in un orcio che era in un angolo 
+                        seminascosto ma comunque vuoto, lo nascose in segreto, e aperta la casa mentre il marito stava ancora entrando 
+                        lo accolse con un discoso duro: <q>e così, senza preoccupazioni e tranquillo con le mani inserite (in tasca) 
+                        mi passeggerai, e intrapresa l’usuale fatica, provvedi alla nostra vita e preparerai qualche cibo? Ma io 
+                        infelice notte e giorno con la filatura tormento tutti i miei nervi affinchè dentro la nostra stanzina 
+                        si accenda almeno una luce. Quanto è più fortunata di me Dafne la vicina, che si rotola ubriaca con i 
+                        suoi amanti di mattina con vino e cibo!</q></p>
+                    </div3>
+                    <div3 type="chapter" n="6">
+                        <p>Così, messo a tacere il marito, disse <q>Ma cos’è questo? Infatti sebbene il nostro artigiano dedicatosi 
+                        ad un affare in piazza ci ha fatto vacanza, ma io ho provveduto alla nostra cenetta di oggi. Vedi questo orcio, 
+                        che sempre inutilmente vuoto occupa un posto tanto grande e in realtà non è nulla di meglio che un ostacolo 
+                        alla nostra conversazione? Questo io per cinque denari ad un tale l’ho venduta; e viene a portare con sè la 
+                        sua cosa dopo aver pagato. Perché dunque non ti cingi e intanto aggiusti la mano per me, così che subito si 
+                        porti fuori dal nascosto per il compratore.</q> Quella donna nata dall’inganno, sollevando una risata 
+                        temeraria disse <q>Mi sono imbattuta in codesto grande uomo e forte negoziatore, il quale la cosa che io donna 
+                        e lottando da dentro casa già da tempo vendetti per sette denari, disgrega a minor prezzo.</q> Il marito 
+                        lieto per l’aggiunta di prezzo disse <q>e chi è questo che la compra a tanto?</q> ma quella rispose <q>da tempo, 
+                        inetto, discese dentro la giara per comprovare accuratamente la sua solidità.</q> </p>
+                    </div3>
+                    <div3 type="chapter" n="7">
+                        <p>Ed egli non manca al discorso della donna ma saltando fuori prontamente diss <q>vuoi sapere la verità, donna? 
+                        Hai un orcio troppo vecchio e scosso da diverse crepe che si aprono.</q> E a suo marito giratosi falsamente, 
+                        disse <q>forse che tu, chiunque tu sia omino, mi procuri subito una lanterna così che accuratamente raschiata 
+                        via la sporcizia da dentro posso riconoscere se è adatto all’uso, se non ritieni che noi abbiamo soldi dal misfatto?</q> 
+                        E non esitanto per nulla e non sospettando quel marito straordinario e tagliente, accesa la lampada disse, 
+                        <q>vieni fuori fratello, e siediti tranquillo, finchè io ti metto sotto gli occhi questo curato bene,</q> 
+                        e dopo aver parlato, spogliatosi, portata giù la luce, iniziò a scavare via la vecchia incrostrazione del vaso 
+                        rovinato. Ma in verità l’adultero, quello un bellissimo ragazzino, senza timore piegato sopra la moglie del fabbro 
+                        che era distesa prona sulla giara, la levigava. Allora quella con la testa messa dentro la giara continuava 
+                        a maltrattare con gioco da prostituta suo marito con astuzia: qui e lì e ancora lì e di nuovo là indicava con 
+                        il suo dito da pulire, finchè compiuti entrambi i lavori, ricevuti i sette denari, il disgraziato fabbro portando 
+                        sul proprio collo l’orcio fu costretto a portarlo fino a casa dell’adultero. </p>
+                    </div3>
+                    <div3 type="chapter" n="8">
+                        <p>Trattenutisi lì per pochini giorni e con la generosità pubblica rimpinzati e sovracaricati di abbondanti guadagni per i vaticini, quei castissimi sacerdoti si escogitano un nuovo genere di profitto. Annotato un unico responso per la maggior parte dei casi, si facevano beffe in un solo modo di tutti coloro che li consultavano riguardo varie questioni. Il responso era questo: <q>Per questo motivo i buoi aggiogati insieme solcano la terra, affinchè in avvenire le piantagioni germoglino rigogliose</q> . Allora se li interrogavano riguardo ad unirsi in un matrimonio solido, dicevano che questa stessa cosa era stata risposta, di dover congiungersi in matrimonio e di procreare sufficienti figli. Se uno che stava per comprare delle terre chiedeva, a buon diritto i buoi, in quanto sia il giogo sia i campi erano annunciati fiorenti di semina. Se uno preoccupato per un viaggio prendeva un auspicio divino, che già erano stati aggiogati e preparati i più mansueti quadrupedi di tutti e che veniva promesso guadagno dal prodotto della terra (lett. zolla). Se uno voleva intraprendere una battaglia o uno che aveva intenzione di inseguire una banda di ladri cercavano di sapere se il proseguimento era vantaggioso o no, rispondevano che la vittoria era indicata propizia dal presagio sicuro, giacchè i colli dei nemici sarebbero (in futuro) stati costretti sotto al gioco e un fecondissimo(abbondantissimo)e produttivo bottino dalla rapina sarebbe stato preso. In questo modo raccimolarono non pochi denari con un’astuzia fraudolenta di capacità profetica.</p>
+                    </div3>
+                    <div3 type="chapter" n="9">
+                        <p>Ma venendo ormai meno la sufficienza del contenuto per le ininterrotte domande, di nuovo procedemmo sulla strada, tutta una strada di gran lunga peggiore di quella che avevamo compiuto durante la notte. Perché no? Piena di buche con canali bucati, in parte molle per la palude stagnante e altrove scivolosa per la melma fangosa. Infine, essendo state ammaccata le mie zampe dai frequenti ostacoli e dalle continue cadute ormai, a stento tuttavia potei sfuggire stanco fino a dei sentieri tra i campi. Ed ecco improvvisamente alle nostre spalle un gruppo di cavalieri armati ci vengono sopra correndo, e a malapena frenata il furore della corsa dei cavalli, avidi, assaltano Filebo e i restanti suoi compagni e strozzando loro il collo e insultandoli come sacrileghi e corrotti mentre li colpivano con pugni, e non li stringono anche tutti con manette e ripetutamente li schiacciano con un potente discorso, che tirino fuori piuttosto il boccale d’oro, tirino fuori quel compenso del loro crimine, che con la finta della cerimonia che avevano continuato a performare come copertura, dagli stessi pulvinari (letto degli idoli romani) della madre degli dei rubati in gran secreto, subito come se potessero evadere la punizione di un tanto grave crimine con una partenza silenziosa, quando ancora luce era esitante andarono oltre il pomerio. </p>
+                    </div3>
+                    <div3 type="chapter" n="10">
+                        <p>Né mancò chi, gettata dentro una mano sopra il mio dorso, frugato in quel grembo della dea che portavo, trovò e tirò fuori la coppa d’oro davanti a tutti. E neppure con codesto tanto infame delitto quelle corrottissime teste poterono essere messe a tacere o spaventate, ma con una risata bugiarda facendo loro beffa dissero <q>Ecco, malvagità di una situazione indegna! E per la questa la maggior parte dgli uomini innocenti corrono pericolo! A causa di un solo piccolo calice, che la madre degli dei porge come done di ospitalità alla sua dea sorella Siria, i sovraintendenti della religione sono chiamati al pericolo di vita come criminali!</q>. Blaterando queste cose e altre simili chiacchere inutilmente, i civili li conducono di nuovo indietro e subito incatenati li spingono dentro nel Tulliano (carcere di stato, a Roma costruito da Servio Tullio?) e riportati e consacrati sia il boccale sia la stessa statua che trasportavano, presso la cella sacra del santuario, il giorno dopo di nuovo condotto avanti con voce da banditore mi sottopongono alla vendita e per sette denari più caro rispetto a quanto mi aveva comprato Filebo, un certo mugnaio del villaggio vicino mi comprò, e subito combrato in blocco anche il frumento, mi guidò caricato abbondantemente attraverso una strada scoscesa, con sassi aguzzi e infestata da ogni tipo di cespugli fino al mulino di cui si occupava. </p>
+                    </div3>    
+                </div2>
+            </div1>
+        </body>
+        
+        <back>
+            <!-- back matter of copy text, if any, goes here -->
+        </back>
+    </text>
+    
+</TEI>

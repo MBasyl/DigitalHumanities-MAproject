@@ -1,0 +1,10 @@
+# sent1 = Sic ille nequissimus carnifex contra me manus impias obarmabat,
+1	Sic	sic	ADV	Df	_	9	advmod	_	TokenRange=0:3
+2	ille	ille	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	4	det	_	TokenRange=4:8
+3	nequissimus	nequis	ADJ	A-	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	TokenRange=9:20
+4	carnifex	carnifex	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=21:29
+5	contra	contra	ADP	R-	_	6	case	_	TokenRange=30:36
+6	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	9	obl	_	TokenRange=37:39
+7	manus	manus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	TokenRange=40:45
+8	impias	impius	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	TokenRange=46:52
+9	obarmabat,	obarmao	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=53:63

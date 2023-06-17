@@ -1,0 +1,18 @@
+# sent2_correcta = at ego, praecipitante consilium periculi tanti praesentia nec expectata diutina cogitatione, lanienam imminentem fuga vitare statui.
+1	at	at	ADV	Df	_	17	discourse	_	TokenRange=64:66
+2	ego,	ego,	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	TokenRange=67:71
+3	praecipitante	praecipito	VERB	V-	Case=Abl|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	advcl	_	TokenRange=72:85
+4	consilium	consilium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	TokenRange=86:95
+5	periculi	periculum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	TokenRange=96:104
+6	tanti	tantus	DET	Pd	Case=Gen|Gender=Neut|Number=Sing	5	det	_	TokenRange=105:110
+7	praesentia	praesentia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=111:121
+8	ne	ne	ADV	Df	Polarity=Neg	10	advmod	_	SpaceAfter=No|TokenRange=122:124
+9	c	que	CCONJ	C-	_	3	cc	_	TokenRange=124:125
+10	expectata	exspecto	VERB	V-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	TokenRange=126:135
+11	diutina	diutinus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	TokenRange=136:143
+12	cogitatione,	cogitatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	10	nsubj:pass	_	TokenRange=144:156
+13	lanienam	laniena	NOUN	Nb	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	obj	_	TokenRange=157:165
+14	imminentem	immineo	VERB	V-	Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	TokenRange=166:176
+15	fuga	fuga	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	16	obl	_	TokenRange=177:181
+16	vitare	vito	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	17	xcomp	_	TokenRange=182:188
+17	statui.	statuo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=189:196
