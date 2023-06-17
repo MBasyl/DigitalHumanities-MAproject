@@ -1,289 +1,468 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesPRO.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesPRO.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <title>ApuleioMetPro</title>
+  </head>
 
-</head>
-
-<script>
+  <script>
     // Get the modal
     var modal = document.getElementById("myModal");
-    
+
     // Get the button that opens the modal
     var btn = document.getElementById("myBtn");
-    
+
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
-    
-    // When the user clicks the button, open the modal 
-    btn.onclick = function() {
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
       modal.style.display = "block";
-    }
-    
+    };
+
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
+    span.onclick = function () {
       modal.style.display = "none";
-    }
-    
+    };
+
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
+    window.onclick = function (event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
-    }
-</script>
-  
+    };
+  </script>
 
-<body style="margin:20px" text-align="left">   
-        <div class="topnav">
-            <a href="#">Chi siamo</a>
-            <a href="lod.html">LOD mission</a>
-            <a href="Alltreebanks.html">Treebank</a>
-            <a href="index.html">Home Page</a>
-            <a href="autoriLat.html">Testi Latini</a>
-          </div>
-        
-    
-        <h1 class="author">Apuleio</h1>
-        <p></p>
+  <body style="margin: 20px" text-align="left">
+    <div class="topnav">
+      <a href="#">Chi siamo</a>
+      <a href="lod.html">LOD mission</a>
+      <a href="Alltreebanks.html">Treebank</a>
+      <a href="index.html">Home Page</a>
+      <a href="autoriLat.html">Testi Latini</a>
+    </div>
 
-        <h2 class="author">Metamorfosi o L'Asino d'Oro</h2>
-        <p class="author"> L'opera integrale è uno dei tre romanzi latini a noi pervennuti, divisa in undici libri. 
-          Il titolo secondario di <q>Asino d'oro</q> (<em>Asinus aureus</em>), è usato per la prima 
-          volta da Agostino di Ippona (354 – 430) nel <em>De civitate Dei</em> (XVlll, 18).</p>
-          <p> Per vedere l'edizione digitale secondo i parametri CDMI:
-            <a href="ApuleioMet9.html" download class="download-button">
-              Download file
-            </a> </p>
-          <p style="font-size: 20px;">Editio critica del testo: <em>
-          Apuleius. The Golden Ass,
-            being the Metamorphoses of Lucius Apuleius.
-      </em>Stephen Gaselee. Stephen Gaselee. London: 
-          William Heinemann; New York: G.P. Putnam's Sons. 1915. Keyboarding </p>
-        
-    
-        <h2>Libro IX</h2>
-      
-        <h3 style="text-align: left;">Indice</h3>
-        <a href="#par1">Par [1]</a>
-        <a href="#par2">Par [2]</a>
-        <a href="#par3">Par [3]</a>
+    <h1 class="author">Apuleio</h1>
+    <p></p>
 
-        <div class="grid-container-author">
-            <div class="Lat">
-                <p class="boxes" id="par1">[1] Sic ille nequissimus carnifex contra me manus impias <a style="font-size: inherit;" data-modal="obarmo">obarmabat</a>,
-                  <a href="downloads/treeApu9.1.1.html"><i class='fas fa-tree fa-sm' style='color:#0433ff'></i></a>
-                    at ego, <a style="font-size: inherit;" data-modal="praecipio" >praecipitante</a> consilium periculi tanti praesentia nec <a style="font-size: inherit;" data-modal="expecto">expectata</a> 
-                    diutina cogitatione, lanienam imminentem fuga <a style="font-size: inherit;" data-modal="vito">vitare</a> <a style="font-size: inherit;" data-modal="sto">statui</a>;
-                    <a href="downloads/treeApu9.1.2.html"><i class='fas fa-tree fa-sm' style='color:#0433ff'></i></a> 
-                    protinusque vinculo, quo <a style="font-size: inherit;" data-modal="deligo">fueram deligatus</a>, <a style="font-size: inherit;" data-modal="abrumpo">abrupto</a>, cursu me 
-                    <a style="font-size: inherit;" data-modal="proripio">proripio</a> totis pedibus, ad tutelam salutis crebris calcibus <a style="font-size: inherit;" data-modal="velitor">velitatus</a>;
-                    <a href="downloads/treeApu9.1.3.html"><i class='fas fa-tree fa-sm' style='color:#0433ff'></i></a> 
-                    illicoque me, raptim <a style="font-size: inherit;" data-modal="transcurro">transcursa</a> proxima porticu, triclinio, in quo dominus aedium 
-                    sacrificales epulas cum sacerdotibus deae <a style="font-size: inherit;" data-modal="cenito">cenitabat</a>, incunctanter <a style="font-size: inherit;" data-modal="immitto">immitto</a> nec pauca 
-                    rerum <a style="font-size: inherit;" data-modal="apparo">apparatus</a> cibarii, mensas etiam et ignes impetu meo <a style="font-size: inherit;" data-modal="collido">collido</a> atque <a style="font-size: inherit;" data-modal="disturbo">disturbo</a>.
-                    <a href="downloads/treeApu9.1.4.html"><i class='fas fa-tree fa-sm' style='color:#0433ff'></i></a> 
-                    Qua rerum deformi strage paterfamilias <a style="font-size: inherit;" data-modal="commoveo">commotus</a>, ut importunum atque lascivum me cuidam 
-                    famulo curiose <a style="font-size: inherit;" data-modal="trado">traditum</a> certo aliquo loco clausum <a style="font-size: inherit;" data-modal="iubeo">iubet</a> 
-                    <a style="font-size: inherit;" data-modal="cohibeo">cohiberi</a>, ne rursum convivium placidum simili petulantia <a style="font-size: inherit;" data-modal="dissipo">dissiparem</a>. 
-                    Hoc astutulo <a style="font-size: inherit;" data-modal="comminiscor">commento</a> scitule <a style="font-size: inherit;" data-modal="muno">munitus</a> et mediis lanii manibus <a style="font-size: inherit;" data-modal="eripio">ereptus</a> 
-                    custodēla salutaris mihi <a style="font-size: inherit;" data-modal="gaudeo">gaudebam</a> carceris. Sed nimirum nihil Fortuna <a style="font-size: inherit;" data-modal="renuo">renuente</a> 
-                    licet homini nato dexterum <a style="font-size: inherit;" data-modal="provenio">provenire</a>, nec consilio prudenti vel remedio sagaci divinae providentiae 
-                    fatalis dispositio <a style="font-size: inherit;" data-modal="subverto">subverti</a> vel <a style="font-size: inherit;" data-modal="reformo">reformari</a> <a style="font-size: inherit;" data-modal="possum">potest</a>. Mihi denique 
-                    id ipsum <a style="font-size: inherit;" data-modal="comminiscor">commentum</a>, quod momentariam salutem <a style="font-size: inherit;" data-modal="reperio">repperisse</a> <a style="font-size: inherit;" data-modal="videor">videbatur</a>, 
-                    periculum grande, immo praesens exitium <a style="font-size: inherit;" data-modal="conflo">conflavit</a> aliud.</p>
-            
+    <h2 class="author">Metamorfosi o L'Asino d'Oro</h2>
+    <p class="author">
+      L'opera integrale è uno dei tre romanzi latini a noi pervennuti, divisa in
+      undici libri. Il titolo secondario di <q>Asino d'oro</q> (<em
+        >Asinus aureus</em
+      >), è usato per la prima volta da Agostino di Ippona (354 – 430) nel
+      <em>De civitate Dei</em> (XVlll, 18).
+    </p>
+    <p>
+      Per vedere l'edizione digitale secondo i parametri CDMI:
+      <a href="ApuleioMet9.html" download class="download-button"
+        >Download HTML file</a
+      >
+      <br />
+      <a href="downloads/apuleio.xml">Download TEI XML file</a>
+    </p>
+    <p style="font-size: 20px">
+      Editio critica del testo:
+      <em>
+        Apuleius. The Golden Ass, being the Metamorphoses of Lucius Apuleius. </em
+      >Stephen Gaselee. Stephen Gaselee. London: William Heinemann; New York:
+      G.P. Putnam's Sons. 1915. Keyboarding
+    </p>
 
-                <p id="par2">[2] Nam quidam subito puer mobili ac trepida facie percitus, ut familiares inter se susurrabant, irrumpit triclinium suoque annuntiat domino de proxumo angiportu canem rabidam paulo ante per posticam impetu miro sese direxisse ardentique prorsus furore venaticos canes invasisse, ac dehinc proxumum petisse stabulum atque ibi pleraque iumenta incurrisse pari saevitia, nec postremum saltem ipsis hominibus pepercisse: nam Myrtilum mulionem et Hephaestionem cocum et Hypnophilum cubicularium et Apollonium medicum, immo vero et plures alios ex familia abigere temptantes variis morsibus quemque lacerasse, certe venenatis morsibus contacta nonnulla iumenta efferari simili rabie. Quae res omnium statim percussit animos, ratique me etiam eadem peste infectum ferocire, arreptis cuiuscemodi telis mutuoque ut exitium commune protelarent cohortati, ipsi potius eodem vesaniae morbo laborantes persequuntur. Nec dubio me lanceis illis vel venabulis, immo vero et bipennibus, quae facile famuli subministraverant, membratim compilassent, ni respecto subiti periculi turbine cubiculum, in quoi mei domini devertebant, protinus irrupissem. Tunc clausis obseratisque super me foribus obsidebant locum, quoad sine ullo congressionis suae periculo pestilentiae letalis pervicaci rabie possessus ac peresus absumerer: quo facto tandem libertatem nanctus, solitariae fortunae munus amplexus, super constratum lectum abiectus post multum equidem temporis somnum humanum quievi.</p>
-                
-                <p id="par3">[3] Iamque clara die, mollitie cubili refota lassitudine, vegetus exsurgo atque illos, qui meae tutelae pervigiles excubias agitaverant, ausculto de meis sic altercare fortunis: ‘ Adhuccine miserum istum asinum iugi furore iactari credimus? Immo vero iam virus increscente saevitia prorsus extinctum.’ Sic opinionis variae terminum ad explorationem conferunt ac de rima quadam prospiciunt sanum me atque sobrium otiose consistere. Iamque ultro foribus patefactis plenius an iam sim mansuefactus periclitantur. Sed unus ex his, de caelo scilicet missus mihi sospitator, argumentum explorandae sanitatis meae tale commonstrat ceteris, ut aquae recentis completam pelvem offerrent potui meo, ac si intrepidus et more solito sumens aquis allibescerem, sanum me atque omni morbo scirent expeditum. contra vero si visum contactumque laticis vitarem ac perhorrescerem, pro comperto noxiam rabiem pertinaciter durare. hoc enim libris etiam pristinis proditum observari solere.</p>
+    <h2>Libro IX</h2>
 
-            </div>
-            
-            <div class="It">
-                <p>1. Così quel crudelissimo carnefice armava contro di me le mani empie, e io, poiché la presenza di tanto grande pericolo precivitava la decisione e non avendo dilungato la meditazione a lungo, decisi di evitare l’imminente macellazione con la fuga; e subito rotta la catena con la quale ero stato legato (dall’alto), di corsa mi lanciai fuori con tutti i piedi, avendo combattuto (come i veliti) con continui calci per la difesa della salvezza; immediatamente, percorrendo di corsa il portico vicino, senza esitazione entro nella sala da pranzo nella quale il padrone stava pranzando con i cibi sacrificali degli altari insieme ai sacerdoti della dea, né apparecchiato con poche vivande, e con la mia foga urto e rovescio di qua e di là i tavoli e anche le fiaccole. E il padrone scosso da quella brutta distruzione delle cose, affidatomi con cura ad un servo come fastidioso e sfrenato, ordinò che venissi rinchiuso in un qualche luogo sicuro, affinchè non disperdessi di nuovo con simile sfrontatezza il tranquillo convivio. Con questa trovata furbetta protetto in maniera elegante e strappato dal mezzo delle mani del mecellaio, godevo della sorveglianza del carcere benefico. Ma proprio (ironico) nulla, con la Sorte che fa segno di no, può capitare di favorevole ad un uomo mortale, né l’ordinamento del fato della provvidenza divina può essere capovolto o modificato da una decisione provveduta o un accorto rimedio. Infine, questa stesta trovata, che a me sembrava aver ottenuto momentanea salvezza, incendiò un grande pericolo, anzi un’altra fine incompente.</p>
-                <p>2. Infatti, immediatamente, un certo fanciullo, mosso tutto da una faccia espressiva e impaurita, mentre gli amici sussurravano tra loro, irruppe nella sala e annuncia al suo padrone che poco prima dal vicolo vicino con sorprendente foga una cagna rabbiosa si era diretta attraverso il portico e diretta si era lanciata contro i cani da caccia con una furia bruciante, e da là aveva raggiunto la stalla vicina e lì aveva assalito con pari crudeltà la maggior parte del bestiame, né da ultimo aveva risparmiato nemmeno gli stessi umani: infatti Mirtilo il mulattiere ed Efestione il cuoco e Ipnofilo il cameriere e Apollonio il medico, in verità anzi molti altri dei domestici che cercavano di cacciarla via aveva lacerato ciascuno con vari morsi, di certo qualche bestia contagiata con morsi che avvelenano era stata resa furiosa dalla stessa rabbia. Questa cosa scosse subito gli animi di tutti, e ritenendo questi che anche io, infetto dalla stessa malattia, impazzissi, afferrati ogni tipo di armi ed esortandosi mutualmente a scacciare la comune rovina, mi inseguono venendo afflitti più loro per questa stessa malattia della follia. Senza dubbio con quelle lance e spiedi, anzi in verità anche scuri a doppio taglio, che agilmente i servi fornivano, mi avrebbero pelato membro a membro, se io, vista dietro la tempesta di esposto pericolo non fossi entrato a forza subito dentro la stanza nella quale i miei padroni alloggiavano. Allora, chiuse e poi sprangate le porte dietro di me, assediavano il luogo, fino a quando senza alcun pericolo per il loro assalto, essendo posseduto e consumato da una ostinata rabbia di letale malattia, io morissi. Di fatto tuttavia, trovata per caso la libertà, abbracciato il dono della fortuna solitaria, gettato sopra il letto ricoperto dopo davvero molto tempo, riposai un sonno umano.</p>
-                <p>3. Mi svegliai rinvigorito quando già il giorno era chiaro, la stanchezza risotorata dalla morbidezza del letto e ascolto quelli che montavano la guardia svegli per la mia difesa, discutere così sulle mie sorti: “Crediamo ancora che codesto povero asino continui a essere scovolto dalla pazzia? In vertà ormai la malattia accrescendo la crudeltà lo avrà del tutto ucciso.” Così al termine delle varie opinioni, si dedicano all’esplorazione e da una certa fessura scorgono che sano e sobrio riposo oziosamente. E aperte le porte ormai un po’ oltre testarono più pienamente se già mi fossi tranquillizzato. Ma uno di loro, certamente un salvatore inviatomi dal cielo, indicò chiaramente agli altri la prova per indagare la mia salute tale che mi avrebbero offerto da bere un catino colmo di acqua fresca, e se senza timore e prendendola con usuale abitudine avvessi gradito l’acqua, avrebbero saputo che ero sano e liberato da ogni malattia. Al contrario se avessi evitato la vista e il contatto con il liquido e fossi tremato tutto, sapevano per certo (comperto habeo+INF) che la rabbia dannosa durava ostinatamente. Questo infatti solve essere osservato come tramandato anche in libri anche antichi.</p>
-            </div>
-            
-            <div class="tenda">
-                <div class="modal" id="obarmo">
-                    <a class="close">&times;</a>
-                    <p> armo,as,armavi,armatum,armare “armare” + ob </p>
-                  </div>
-                <div class="modal" id="praecipio">
-                    <a class="close">&times;</a>
-                    <p> capio,capis,cepi,ceptum,capere “prendere” + prae </p>
-                  </div>
-                <div class="modal" id="expecto">
-                    <a class="close">&times;</a>
-                    <p> spicio,spicis,spexi,spectum,spicere “guardare” + ex + suffisso frequentativo </p>
-                  </div>
-                  <div class="modal" id="deligo">
-                    <a class="close">&times;</a>
-                    <p> *ligo “attaccare” + de </p>
-                  </div>
-                <div class="modal" id="abrumpo">
-                    <a class="close">&times;</a>
-                    <p> rumpo,rumpis,rupi,ruptum,rumpere “rombere” + ad </p>
-                  </div>
-                <div class="modal" id="proripio">
-                    <a class="close">&times;</a>
-                    <p> rapio,rapis,rapi,raptum,rapere + pro </p>
-                  </div>
-                <div class="modal" id="velitor">
-                    <a class="close">&times;</a>
-                    <p> vēlitor,velitaris,velitatus sum,velitari “combattere come vèlite, soldato leggero”</p>
-                  </div>
-                <div class="modal" id="transcurro">
-                    <a class="close">&times;</a>
-                    <p> curro,curris,cursi,cursum,currere “correre” + trans</p>
-                  </div>
-                  <div class="modal" id="vito">
-                    <a class="close">&times;</a>
-                    <p> vito,vitas,vitavi,vitatum, vitare “evitare”</p>
-                  </div>
-                <div class="modal" id="sto">
-                    <a class="close">&times;</a>
-                    <p> sto,stas,steti,statum,stare + frequentativo </p>
-                  </div>
-                <div class="modal" id="cenito">
-                    <a class="close">&times;</a>
-                    <p> ceno,cenas,cenavi,cenatum,cenare “cenare” + frequentativo </p>
-                  </div>
-                <div class="modal" id="immitto">
-                    <a class="close">&times;</a>
-                    <p> mitto,mittis,misi,missum,mittere “mandare” + in </p>
-                  </div>
-                <div class="modal" id="apparo">
-                    <a class="close">&times;</a>
-                    <p> paro,paras,paravi,paratum,parare “preparare” + ad</p>
-                  </div>
-                <div class="modal" id="collido">
-                    <a class="close">&times;</a>
-                    <p> laedo,laedis,laesi,leasum,laedere “danneggiare” + con </p>
-                  </div>
-                <div class="modal" id="disturbo">
-                    <a class="close">&times;</a>
-                    <p> turbo,turbas,turbavi,turbatum,turbare “agitare” + dis </p>
-                  </div>
-                <div class="modal" id="commoveo">
-                    <a class="close">&times;</a>
-                    <p> moveo,moves,movi,motum,movere “muovere” + cum </p>
-                  </div>
-                  <div class="modal" id="trado">
-                    <a class="close">&times;</a>
-                    <p> trado,tradis,tradidi,traditum,tradere “affidare”</p>
-                  </div>
-                <div class="modal" id="iubeo">
-                    <a class="close">&times;</a>
-                    <p> iubeo,iubes,iussi,iussum,iubere “ordinare” COSTRUZ: aliquem + INF </p>
-                  </div>
-                <div class="modal" id="cohibeo">
-                    <a class="close">&times;</a>
-                    <p> habeo,habes,habui,habitum,habere “avere” + co</p>
-                  </div>
-                <div class="modal" id="dissipo">
-                    <a class="close">&times;</a>
-                    <p> *supo + dis “sparpagliare”</p>
-                  </div>
-                <div class="modal" id="comminiscor">
-                    <a class="close">&times;</a>
-                    <p> memini,meminisse (difettivo) “ricordare” + cum + incoativo </p>
-                  </div>
-                <div class="modal" id="muno">
-                    <a class="close">&times;</a>
-                    <p> munio,munis,munii,munitum,munire “innalzare muro, difendere”</p>
-                  </div>
-                <div class="modal" id="eripio">
-                    <a class="close">&times;</a>
-                    <p> rapio,rapis,rapui,raptum,rapere “strappare” + ex CFR. proripio </p>
-                  </div>
-                <div class="modal" id="gaudeo">
-                    <a class="close">&times;</a>
-                    <p> gaudeo,gaudes,gavisus sum,gaudere “godere” COSTRUZ: + abl.</p>
-                  </div>
-                <div class="modal" id="renuo">
-                    <a class="close">&times;</a>
-                    <p> *nuo,-nuis,-nui,-nutum,-nuere “cenno” + re </p>
-                  </div>
-                <div class="modal" id="provenio">
-                    <a class="close">&times;</a>
-                    <p> venio,venis,veni,ventum,venire “andare” + pro </p>
-                  </div>
-                  <div class="modal" id="subverto">
-                    <a class="close">&times;</a>
-                    <p> verto,vertis,verti,versum,vertere “girare” + sub</p>
-                  </div>
-                <div class="modal" id="reformo">
-                    <a class="close">&times;</a>
-                    <p> formo,formas,formavi,formatum,formare “formare”+ re </p>
-                  </div>
-                <div class="modal" id="possum">
-                    <a class="close">&times;</a>
-                    <p> possum,potes,potui,posse “potere”</p>
-                  </div>
-                <div class="modal" id="reperio">
-                    <a class="close">&times;</a>
-                    <p> reperio,reperis,repperi,repertum,reperire (da pario “partorire/creare”)</p>
-                  </div>
-                <div class="modal" id="videor">
-                    <a class="close">&times;</a>
-                    <p> videor,videris,visus sum,videri “sembrare”</p>
-                  </div>
-                <div class="modal" id="conflo">
-                    <a class="close">&times;</a>
-                    <p> flo,flas flavi,flatum,flare “soffiare” + cum </p>
-                  </div>
-            
+    <h3 style="text-align: left">Indice</h3>
+    <a href="#par1">Par [1]</a>
+    <a href="#par2">Par [2]</a>
+    <a href="#par3">Par [3]</a>
 
-            </div>  
-    
+    <div class="grid-container-author">
+      <div class="Lat">
+        <p class="boxes" id="par1">
+          [1] Sic ille nequissimus carnifex contra me manus impias
+          <a style="font-size: inherit" data-modal="obarmo">obarmabat</a>, at
+          ego,
+          <a style="font-size: inherit" data-modal="praecipio">praecipitante</a>
+          consilium periculi tanti praesentia nec
+          <a style="font-size: inherit" data-modal="expecto">expectata</a>
+          diutina cogitatione, lanienam imminentem fuga
+          <a style="font-size: inherit" data-modal="vito">vitare</a>
+          <a style="font-size: inherit" data-modal="sto">statui</a>.
+          <a href="downloads/treeApu9.1.1.html"
+            ><i class="fas fa-tree fa-sm" style="color: #0433ff"></i
+          ></a>
+          Protinusque vinculo, quo
+          <a style="font-size: inherit" data-modal="deligo">fueram deligatus</a
+          >, <a style="font-size: inherit" data-modal="abrumpo">abrupto</a>,
+          cursu me
+          <a style="font-size: inherit" data-modal="proripio">proripio</a> totis
+          pedibus, ad tutelam salutis crebris calcibus
+          <a style="font-size: inherit" data-modal="velitor">velitatus</a>;
+          <a href="downloads/treeApu9.1.2.html"
+            ><i class="fas fa-tree fa-sm" style="color: #0433ff"></i
+          ></a>
+          illicoque me, raptim
+          <a style="font-size: inherit" data-modal="transcurro">transcursa</a>
+          proxima porticu, triclinio, in quo dominus aedium sacrificales epulas
+          cum sacerdotibus deae
+          <a style="font-size: inherit" data-modal="cenito">cenitabat</a>,
+          incunctanter
+          <a style="font-size: inherit" data-modal="immitto">immitto</a> nec
+          pauca rerum
+          <a style="font-size: inherit" data-modal="apparo">apparatus</a>
+          cibarii, mensas etiam et ignes impetu meo
+          <a style="font-size: inherit" data-modal="collido">collido</a> atque
+          <a style="font-size: inherit" data-modal="disturbo">disturbo</a>.
+          <a href="downloads/treeApu9.1.3.html"
+            ><i class="fas fa-tree fa-sm" style="color: #0433ff"></i
+          ></a>
+          Qua rerum deformi strage paterfamilias
+          <a style="font-size: inherit" data-modal="commoveo">commotus</a>, ut
+          importunum atque lascivum me cuidam famulo curiose
+          <a style="font-size: inherit" data-modal="trado">traditum</a> certo
+          aliquo loco clausum
+          <a style="font-size: inherit" data-modal="iubeo">iubet</a>
+          <a style="font-size: inherit" data-modal="cohibeo">cohiberi</a>, ne
+          rursum convivium placidum simili petulantia
+          <a style="font-size: inherit" data-modal="dissipo">dissiparem</a>. Hoc
+          astutulo
+          <a style="font-size: inherit" data-modal="comminiscor">commento</a>
+          scitule <a style="font-size: inherit" data-modal="muno">munitus</a> et
+          mediis lanii manibus
+          <a style="font-size: inherit" data-modal="eripio">ereptus</a>
+          custodēla salutaris mihi
+          <a style="font-size: inherit" data-modal="gaudeo">gaudebam</a>
+          carceris. Sed nimirum nihil Fortuna
+          <a style="font-size: inherit" data-modal="renuo">renuente</a> licet
+          homini nato dexterum
+          <a style="font-size: inherit" data-modal="provenio">provenire</a>, nec
+          consilio prudenti vel remedio sagaci divinae providentiae fatalis
+          dispositio
+          <a style="font-size: inherit" data-modal="subverto">subverti</a> vel
+          <a style="font-size: inherit" data-modal="reformo">reformari</a>
+          <a style="font-size: inherit" data-modal="possum">potest</a>. Mihi
+          denique id ipsum
+          <a style="font-size: inherit" data-modal="comminiscor">commentum</a>,
+          quod momentariam salutem
+          <a style="font-size: inherit" data-modal="reperio">repperisse</a>
+          <a style="font-size: inherit" data-modal="videor">videbatur</a>,
+          periculum grande, immo praesens exitium
+          <a style="font-size: inherit" data-modal="conflo">conflavit</a> aliud.
+        </p>
+
+        <p id="par2">
+          [2] Nam quidam subito puer mobili ac trepida facie percitus, ut
+          familiares inter se susurrabant, irrumpit triclinium suoque annuntiat
+          domino de proxumo angiportu canem rabidam paulo ante per posticam
+          impetu miro sese direxisse ardentique prorsus furore venaticos canes
+          invasisse, ac dehinc proxumum petisse stabulum atque ibi pleraque
+          iumenta incurrisse pari saevitia, nec postremum saltem ipsis hominibus
+          pepercisse: nam Myrtilum mulionem et Hephaestionem cocum et
+          Hypnophilum cubicularium et Apollonium medicum, immo vero et plures
+          alios ex familia abigere temptantes variis morsibus quemque lacerasse,
+          certe venenatis morsibus contacta nonnulla iumenta efferari simili
+          rabie. Quae res omnium statim percussit animos, ratique me etiam eadem
+          peste infectum ferocire, arreptis cuiuscemodi telis mutuoque ut
+          exitium commune protelarent cohortati, ipsi potius eodem vesaniae
+          morbo laborantes persequuntur. Nec dubio me lanceis illis vel
+          venabulis, immo vero et bipennibus, quae facile famuli
+          subministraverant, membratim compilassent, ni respecto subiti periculi
+          turbine cubiculum, in quoi mei domini devertebant, protinus
+          irrupissem. Tunc clausis obseratisque super me foribus obsidebant
+          locum, quoad sine ullo congressionis suae periculo pestilentiae
+          letalis pervicaci rabie possessus ac peresus absumerer: quo facto
+          tandem libertatem nanctus, solitariae fortunae munus amplexus, super
+          constratum lectum abiectus post multum equidem temporis somnum humanum
+          quievi.
+        </p>
+
+        <p id="par3">
+          [3] Iamque clara die, mollitie cubili refota lassitudine, vegetus
+          exsurgo atque illos, qui meae tutelae pervigiles excubias agitaverant,
+          ausculto de meis sic altercare fortunis:
+          <q
+            >Adhuccine miserum istum asinum iugi furore iactari credimus? Immo
+            vero iam virus increscente saevitia prorsus extinctum.</q
+          >
+          Sic opinionis variae terminum ad explorationem conferunt ac de rima
+          quadam prospiciunt sanum me atque sobrium otiose consistere. Iamque
+          ultro foribus patefactis plenius an iam sim mansuefactus
+          periclitantur. Sed unus ex his, de caelo scilicet missus mihi
+          sospitator, argumentum explorandae sanitatis meae tale commonstrat
+          ceteris, ut aquae recentis completam pelvem offerrent potui meo, ac si
+          intrepidus et more solito sumens aquis allibescerem, sanum me atque
+          omni morbo scirent expeditum. contra vero si visum contactumque
+          laticis vitarem ac perhorrescerem, pro comperto noxiam rabiem
+          pertinaciter durare. hoc enim libris etiam pristinis proditum
+          observari solere.
+        </p>
+      </div>
+
+      <div class="It">
+        <p>
+          1. Così quel crudelissimo carnefice armava contro di me le mani empie,
+          e io, poiché la presenza di tanto grande pericolo precipitava la
+          decisione e non avendo dilungato la meditazione di tanto, decisi di
+          evitare l’imminente macellazione con la fuga; e subito rotta la catena
+          con la quale ero stato legato (dall’alto), di corsa mi lanciai fuori
+          con tutti i piedi, avendo combattuto con continui calci per la difesa
+          della salvezza; immediatamente, percorrendo di corsa il portico
+          vicino, senza esitazione entro nella sala da pranzo nella quale il
+          padrone stava pranzando con i cibi sacrificali degli altari insieme ai
+          sacerdoti della dea, né avendo apparecchiato con poche vivande, e con
+          la mia foga urto e rovescio di qua e di là i tavoli e anche le
+          fiaccole. E il padrone scosso da quella brutta distruzione delle cose,
+          affidatomi con cura ad un servo come fastidioso e sfrenato, ordinò che
+          venissi rinchiuso in un qualche luogo sicuro, affinché non disperdessi
+          di nuovo con simile sfrontatezza il tranquillo convivio. Con questa
+          trovata furbetta protetto in maniera elegante e strappato dal mezzo
+          delle mani del macellaio, godevo della sorveglianza del carcere
+          benefico. Ma proprio nulla, con la Sorte che fa segno di no, può
+          capitare di favorevole ad un uomo mortale, né l’ordinamento del fato
+          della provvidenza divina può essere capovolto o modificato da una
+          decisione previdente o un accorto rimedio. Infine, questa stessa
+          trovata, che a me sembrava aver ottenuto momentanea salvezza, incendiò
+          un grande pericolo, anzi un’altra fine incombente.
+        </p>
+        <p>
+          2. Infatti, immediatamente, un certo fanciullo mosso tutto da una
+          faccia espressiva e impaurita, mentre gli amici sussurravano tra loro,
+          irruppe nella sala e annuncia al suo padrone che poco prima dal vicolo
+          vicino con sorprendente foga una cagna rabbiosa si era diretta
+          attraverso il portico e dritta si era lanciata contro i cani da caccia
+          con una furia bruciante, e da là aveva raggiunto la stalla vicina e lì
+          aveva assalito con pari crudeltà la maggior parte del bestiame, né da
+          ultimo aveva risparmiato nemmeno gli stessi umani: infatti Mirtilo il
+          mulattiere ed Efestione il cuoco e Ipnofilo il cameriere e Apollonio
+          il medico, in verità anzi molti altri dei domestici che cercavano di
+          cacciarla via, aveva lacerato ciascuno con vari morsi e di certo
+          qualche bestia, contagiata con morsi che avvelenano, era stata resa
+          furiosa dalla stessa rabbia. Questa cosa scosse subito gli animi di
+          tutti, e ritenendo questi che anche io, infetto dalla stessa malattia,
+          impazzissi, afferrati ogni tipo di armi ed esortandosi mutualmente a
+          scacciare la comune rovina, mi inseguono venendo afflitti più loro per
+          questa stessa malattia della follia. Senza dubbio con quelle lance e
+          spiedi, anzi in verità anche scuri a doppio taglio, che agilmente i
+          servi fornivano, mi avrebbero pelato membro a membro, se io, vista
+          dietro la tempesta di esposto pericolo non fossi entrato a forza
+          subito dentro la stanza nella quale i miei padroni alloggiavano.
+          Allora, chiuse e poi sprangate le porte dietro di me, assediavano il
+          luogo, fino a quando senza alcun pericolo per il loro assalto, essendo
+          posseduto e consumato da una ostinata rabbia di letale malattia, io
+          morissi. Di fatto tuttavia, trovata per caso la libertà, abbracciato
+          il dono della fortuna solitaria, gettato sopra il letto ricoperto dopo
+          davvero molto tempo, riposai un sonno umano.
+        </p>
+        <p>
+          3. Mi svegliai rinvigorito quando già il giorno era chiaro, la
+          stanchezza ristorata dalla morbidezza del letto, e ascolto quelli che
+          montavano la guardia svegli per la mia difesa, discutere così sulle
+          mie sorti: “Crediamo ancora che codesto povero asino continui a essere
+          sconvolto dalla pazzia? In verità ormai la malattia accrescendo la
+          crudeltà lo avrà del tutto ucciso.” Così al termine delle varie
+          opinioni, si dedicano all’esplorazione e da una certa fessura scorgono
+          che sano e sobrio riposo oziosamente. E aperte le porte ormai un po’
+          oltre testarono più pienamente se già mi fossi tranquillizzato. Ma uno
+          di loro, certamente un salvatore inviatomi dal cielo, indicò
+          chiaramente agli altri la prova per indagare la mia salute tale che mi
+          avrebbero offerto da bere un catino colmo di acqua fresca, e se senza
+          timore e prendendola con usuale abitudine avessi gradito l’acqua,
+          avrebbero saputo che ero sano e liberato da ogni malattia. Al
+          contrario se avessi evitato la vista e il contatto con il liquido e
+          fossi tremato tutto, sapevano per certo che la rabbia dannosa durava
+          ostinatamente. Questo infatti solve essere osservato come tramandato
+          anche in libri anche antichi.
+        </p>
+      </div>
+
+      <div class="tenda">
+        <div class="modal" id="obarmo">
+          <a class="close">&times;</a>
+          <p>armo,as,armavi,armatum,armare “armare” + ob</p>
         </div>
-        
-        
-        <div class="footer" style="margin-top: 10px;">
-          <p style="font-size: 20px;">
-            Coprywrite: Text provided by Perseus Digital Library, with funding from The Mellon Foundation. Original version available for viewing and download at <a href="http://www.perseus.tufts.edu/hopper/">http://www.perseus.tufts.edu/hopper/</a>.<br>
-                <br>
-                <a href="#">Back to top</a>
-            </p>
-          </div>
-       
-</body>
+        <div class="modal" id="praecipio">
+          <a class="close">&times;</a>
+          <p>capio,capis,cepi,ceptum,capere “prendere” + prae</p>
+        </div>
+        <div class="modal" id="expecto">
+          <a class="close">&times;</a>
+          <p>
+            spicio,spicis,spexi,spectum,spicere “guardare” + ex + suffisso
+            frequentativo
+          </p>
+        </div>
+        <div class="modal" id="deligo">
+          <a class="close">&times;</a>
+          <p>*ligo “attaccare” + de</p>
+        </div>
+        <div class="modal" id="abrumpo">
+          <a class="close">&times;</a>
+          <p>rumpo,rumpis,rupi,ruptum,rumpere “rombere” + ad</p>
+        </div>
+        <div class="modal" id="proripio">
+          <a class="close">&times;</a>
+          <p>rapio,rapis,rapi,raptum,rapere + pro</p>
+        </div>
+        <div class="modal" id="velitor">
+          <a class="close">&times;</a>
+          <p>
+            vēlitor,velitaris,velitatus sum,velitari “combattere come vèlite,
+            soldato leggero”
+          </p>
+        </div>
+        <div class="modal" id="transcurro">
+          <a class="close">&times;</a>
+          <p>curro,curris,cursi,cursum,currere “correre” + trans</p>
+        </div>
+        <div class="modal" id="vito">
+          <a class="close">&times;</a>
+          <p>vito,vitas,vitavi,vitatum, vitare “evitare”</p>
+        </div>
+        <div class="modal" id="sto">
+          <a class="close">&times;</a>
+          <p>sto,stas,steti,statum,stare + frequentativo</p>
+        </div>
+        <div class="modal" id="cenito">
+          <a class="close">&times;</a>
+          <p>ceno,cenas,cenavi,cenatum,cenare “cenare” + frequentativo</p>
+        </div>
+        <div class="modal" id="immitto">
+          <a class="close">&times;</a>
+          <p>mitto,mittis,misi,missum,mittere “mandare” + in</p>
+        </div>
+        <div class="modal" id="apparo">
+          <a class="close">&times;</a>
+          <p>paro,paras,paravi,paratum,parare “preparare” + ad</p>
+        </div>
+        <div class="modal" id="collido">
+          <a class="close">&times;</a>
+          <p>laedo,laedis,laesi,leasum,laedere “danneggiare” + con</p>
+        </div>
+        <div class="modal" id="disturbo">
+          <a class="close">&times;</a>
+          <p>turbo,turbas,turbavi,turbatum,turbare “agitare” + dis</p>
+        </div>
+        <div class="modal" id="commoveo">
+          <a class="close">&times;</a>
+          <p>moveo,moves,movi,motum,movere “muovere” + cum</p>
+        </div>
+        <div class="modal" id="trado">
+          <a class="close">&times;</a>
+          <p>trado,tradis,tradidi,traditum,tradere “affidare”</p>
+        </div>
+        <div class="modal" id="iubeo">
+          <a class="close">&times;</a>
+          <p>
+            iubeo,iubes,iussi,iussum,iubere “ordinare” COSTRUZ: aliquem + INF
+          </p>
+        </div>
+        <div class="modal" id="cohibeo">
+          <a class="close">&times;</a>
+          <p>habeo,habes,habui,habitum,habere “avere” + co</p>
+        </div>
+        <div class="modal" id="dissipo">
+          <a class="close">&times;</a>
+          <p>*supo + dis “sparpagliare”</p>
+        </div>
+        <div class="modal" id="comminiscor">
+          <a class="close">&times;</a>
+          <p>memini,meminisse (difettivo) “ricordare” + cum + incoativo</p>
+        </div>
+        <div class="modal" id="muno">
+          <a class="close">&times;</a>
+          <p>munio,munis,munii,munitum,munire “innalzare muro, difendere”</p>
+        </div>
+        <div class="modal" id="eripio">
+          <a class="close">&times;</a>
+          <p>rapio,rapis,rapui,raptum,rapere “strappare” + ex CFR. proripio</p>
+        </div>
+        <div class="modal" id="gaudeo">
+          <a class="close">&times;</a>
+          <p>gaudeo,gaudes,gavisus sum,gaudere “godere” COSTRUZ: + abl.</p>
+        </div>
+        <div class="modal" id="renuo">
+          <a class="close">&times;</a>
+          <p>*nuo,-nuis,-nui,-nutum,-nuere “cenno” + re</p>
+        </div>
+        <div class="modal" id="provenio">
+          <a class="close">&times;</a>
+          <p>venio,venis,veni,ventum,venire “andare” + pro</p>
+        </div>
+        <div class="modal" id="subverto">
+          <a class="close">&times;</a>
+          <p>verto,vertis,verti,versum,vertere “girare” + sub</p>
+        </div>
+        <div class="modal" id="reformo">
+          <a class="close">&times;</a>
+          <p>formo,formas,formavi,formatum,formare “formare”+ re</p>
+        </div>
+        <div class="modal" id="possum">
+          <a class="close">&times;</a>
+          <p>possum,potes,potui,posse “potere”</p>
+        </div>
+        <div class="modal" id="reperio">
+          <a class="close">&times;</a>
+          <p>
+            reperio,reperis,repperi,repertum,reperire (da pario
+            “partorire/creare”)
+          </p>
+        </div>
+        <div class="modal" id="videor">
+          <a class="close">&times;</a>
+          <p>videor,videris,visus sum,videri “sembrare”</p>
+        </div>
+        <div class="modal" id="conflo">
+          <a class="close">&times;</a>
+          <p>flo,flas flavi,flatum,flare “soffiare” + cum</p>
+        </div>
+      </div>
+    </div>
 
-<script>
+    <div class="footer" style="margin-top: 10px">
+      <p style="font-size: 20px">
+        Coprywrite: Text provided by Perseus Digital Library, with funding from
+        The Mellon Foundation. Original version available for viewing and
+        download at
+        <a href="http://www.perseus.tufts.edu/hopper/"
+          >http://www.perseus.tufts.edu/hopper/</a
+        >.<br />
+        <br />
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+  </body>
 
-    let as = document.querySelectorAll('p.boxes a');
-    let modals = document.querySelectorAll('.modal');
-    
+  <script>
+    let as = document.querySelectorAll("p.boxes a");
+    let modals = document.querySelectorAll(".modal");
+
     function showModal(id) {
       let m = document.getElementById(id);
-      m.classList.add('visible');
+      m.classList.add("visible");
     }
-    
+
     function hideModals() {
-      modals.forEach(m => {
-        m.classList.remove('visible');
+      modals.forEach((m) => {
+        m.classList.remove("visible");
       });
     }
-    
-    as.forEach(b => {
-      b.addEventListener('click', event => {
+
+    as.forEach((b) => {
+      b.addEventListener("click", (event) => {
         hideModals();
         showModal(b.dataset.modal);
       });
     });
-    
-    modals.forEach(m => {
-      let x = m.querySelector('a.close');
-      x.addEventListener('click', hideModals);
-    });
-    
-    </script>
 
+    modals.forEach((m) => {
+      let x = m.querySelector("a.close");
+      x.addEventListener("click", hideModals);
+    });
+  </script>
 </html>

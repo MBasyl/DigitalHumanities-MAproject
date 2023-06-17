@@ -1,18 +1,19 @@
-# sent2_correcta = at ego, praecipitante consilium periculi tanti praesentia nec expectata diutina cogitatione, lanienam imminentem fuga vitare statui.
-1	at	at	ADV	Df	_	17	discourse	_	TokenRange=64:66
-2	ego,	ego,	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	TokenRange=67:71
-3	praecipitante	praecipito	VERB	V-	Case=Abl|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	advcl	_	TokenRange=72:85
-4	consilium	consilium	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	TokenRange=86:95
-5	periculi	periculum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	TokenRange=96:104
-6	tanti	tantus	DET	Pd	Case=Gen|Gender=Neut|Number=Sing	5	det	_	TokenRange=105:110
-7	praesentia	praesentia	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=111:121
-8	ne	ne	ADV	Df	Polarity=Neg	10	advmod	_	SpaceAfter=No|TokenRange=122:124
-9	c	que	CCONJ	C-	_	3	cc	_	TokenRange=124:125
-10	expectata	exspecto	VERB	V-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	TokenRange=126:135
-11	diutina	diutinus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	TokenRange=136:143
-12	cogitatione,	cogitatio	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	10	nsubj:pass	_	TokenRange=144:156
-13	lanienam	laniena	NOUN	Nb	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	obj	_	TokenRange=157:165
-14	imminentem	immineo	VERB	V-	Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	TokenRange=166:176
-15	fuga	fuga	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	16	obl	_	TokenRange=177:181
-16	vitare	vito	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	17	xcomp	_	TokenRange=182:188
-17	statui.	statuo	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=189:196
+# text = Protinusque vinculo quo fueram deligatus abrupto, cursu me proripio totis pedibus, ad tutelam salutis crebris calcibus velitatus.
+1	Protinus	protinus	ADV	A-	Case=Nom|Gender=Masc|Number=Sing	7	advmod	_	SpaceAfter=No|TokenRange=0:8
+2	que	que	CCONJ	C-	_	10	cc	_	TokenRange=8:11
+3	vinculo	vinculum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	7	nsubj:pass	_	TokenRange=12:19
+4	quo	qui	PRON	Pr	Case=Abl|Gender=Neut|Number=Sing|PronType=Rel	6	obl	_	TokenRange=20:23
+5	fueram	sum	AUX	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin|Voice=Act	6	aux:pass	_	TokenRange=24:30
+6	deligatus	deligo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	TokenRange=31:40
+7	abrupto,	abruptus	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=41:49
+8	cursu	cursus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	10	advmod	_	TokenRange=50:55
+9	me	ego	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	obj	_	TokenRange=56:58
+10	proripio	proripium	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	0	root	_	TokenRange=59:67
+11	totis	totus	ADJ	A-	Case=Abl|Degree=Pos|Number=Plur	12	amod	_	TokenRange=68:73
+12	pedibus,	peds	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	10	obl	_	TokenRange=74:82
+13	ad	ad	ADP	R-	_	14	case	_	TokenRange=83:85
+14	tutelam	tutela	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	TokenRange=86:93
+15	salutis	salus	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	TokenRange=94:101
+16	crebris	creber	ADJ	A-	Case=Abl|Degree=Pos|Number=Plur	17	amod	_	TokenRange=102:109
+17	calcibus	calx	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	18	obl	_	TokenRange=110:118
+18	velitatus.	velito	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	TokenRange=119:129

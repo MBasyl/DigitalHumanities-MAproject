@@ -1,0 +1,27 @@
+# text = Sic ille nequissimus carnifex contra me manus impias obarmabat at ego praecipitante consilium periculi tanti praesentia nec expectata diutina cogitatione lanienam imminentem fuga vitare statui.
+1	Sic	sic	ADV	d|d|-|-|-|-|-|-|-|-	_	9	advmod	_	TokenRange=0:3
+2	ille	ille	DET	p|p|-|s|-|-|-|m|n|-	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	TokenRange=4:8
+3	nequissimus	nequus	ADJ	a|a|-|s|-|-|-|m|n|s	Case=Nom|Degree=Abs|Gender=Masc|Number=Sing	4	amod	_	TokenRange=9:20
+4	carnifex	carnifex	NOUN	n|n|-|s|-|-|-|m|n|-	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=21:29
+5	contra	contra	ADP	r|r|-|-|-|-|-|-|-|-	_	6	case	_	TokenRange=30:36
+6	me	ego	PRON	p|p|1|s|-|-|-|m|a|-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	9	obl	_	TokenRange=37:39
+7	manus	manus	NOUN	n|n|-|p|-|-|-|f|a|-	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	TokenRange=40:45
+8	impias	impius	ADJ	a|a|-|p|-|-|-|f|a|-	Case=Acc|Gender=Fem|Number=Plur	7	amod	_	TokenRange=46:52
+9	obarmabat	obarmo	VERB	v|v|3|s|i|i|a|-|-|-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=53:62
+10	at	ab	ADV	r|r|-|-|-|-|-|-|-|-	_	25	discourse	_	TokenRange=63:65
+11	ego	ego	PRON	p|p|1|s|-|-|-|m|n|-	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	TokenRange=66:69
+12	praecipitante	praecipito	VERB	t|t|-|s|p|p|a|m|b|-	Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	TokenRange=70:83
+13	consilium	consilium	NOUN	n|n|-|s|-|-|-|n|a|-	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	TokenRange=84:93
+14	periculi	periculus	NOUN	n|n|-|s|-|-|-|n|g|-	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	TokenRange=94:102
+15	tanti	tantus	DET	a|a|-|s|-|-|-|m|g|-	Case=Gen|Gender=Masc|Number=Sing	14	det	_	TokenRange=103:108
+16	praesentia	praaesentia	NOUN	n|n|-|s|-|-|-|f|a|-	Case=Abl|Gender=Fem|Number=Sing	12	csubj	_	TokenRange=109:119
+17	nec	nec	CCONJ	c|c|-|-|-|-|-|-|-|-	_	18	cc	_	TokenRange=120:123
+18	expectata	expecto	VERB	t|t|-|s|r|p|p|f|b|-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=124:133
+19	diutina	diutinus	ADJ	a|a|-|s|-|-|-|f|b|-	Case=Abl|Gender=Fem|Number=Sing	20	amod	_	TokenRange=134:141
+20	cogitatione	cogitatio	NOUN	n|n|-|s|-|-|-|f|b|-	Case=Abl|Gender=Fem|Number=Sing	18	csubj	_	TokenRange=142:153
+21	lanienam	laniena	ADJ	a|a|-|s|-|-|-|f|a|-	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	TokenRange=154:162
+22	imminentem	immineo	VERB	t|t|-|s|p|p|a|m|a|-	Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	TokenRange=163:173
+23	fuga	fuga	NOUN	n|n|-|s|-|-|-|f|a|-	Case=Abl|Gender=Fem|Number=Sing	24	obl	_	TokenRange=174:178
+24	vitare	hvbto	VERB	v|v|-|-|p|n|a|-|-|-	Aspect=Imp|Tense=Pres|VerbForm=Inf|Voice=Act	25	xcomp	_	TokenRange=179:185
+25	statui	stao	VERB	v|v|1|s|r|i|a|-|-|-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No|TokenRange=186:192
+26	.	.	PUNCT	Punc	_	9	punct	_	SpaceAfter=No|TokenRange=192:193
