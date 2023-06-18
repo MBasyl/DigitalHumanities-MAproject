@@ -1,224 +1,299 @@
 * {
-    box-sizing: border-box;
-    font-family: "Arial, Helvetica, sans-serif", Arial;
-  }
+  box-sizing: border-box;
+  font-family: "Arial, Helvetica, sans-serif", Arial;
+}
 
 body {
-    margin: 1;
-    background-color: #ddd;
-    }
+  margin: 1;
+  background-color: #ddd;
+}
 
 /* Style the top navigation bar */
 .topnav {
-    overflow: hidden;
-    background-color: #333;}
-  
-/* Style the topnav links */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: medium;}
-  
-/* Change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;}
-
-  /* Style the content */
-.content {
-    background-color: #ddd;
-    padding: 10px;}
-
-
-  /* GRIDS*/
-
-
-  .item1 { grid-area: image1; 
-    background-color: #ddd;
-    padding: 20px 0;
-    width: 100%;
-    height: 400px;
-    background-image: url('images/colosseum.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 30px
-    }
-
-  .item2 { grid-area: main; 
-    background-color: #333;
-    text-align: center;
-    padding: 50px 0;
-    font-size: 30px;   
-    border-radius: 30px 
+  overflow: hidden;
+  background-color: #333;
 }
 
-  .item3 { grid-area: image2; 
-    background-color:#ddd;
-    width: 100%;
-    height: 400px;
-    background-image: url('images/temple.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 30px
-    }
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: medium;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+/* GRIDS*/
+
+.item1 {
+  grid-area: image1;
+  background-color: #ddd;
+  padding: 20px 0;
+  width: 100%;
+  height: 400px;
+  background-image: url("images/colosseum.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.item2 {
+  grid-area: main;
+  background-color: #333;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+.item3 {
+  grid-area: image2;
+  background-color: #ddd;
+  width: 100%;
+  height: 400px;
+  background-image: url("images/temple.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
 
 .grid-container {
-    display: grid;
-    grid-template-areas:
-        'image1 main image2'
-        'image1 main image2'
-        'image1 main image2';
-    gap: 10px;
-    background-color: #ddd;
-    padding: 10px;
-    }
+  display: grid;
+  grid-template-areas:
+    "image1 main image2"
+    "image1 main image2"
+    "image1 main image2";
+  gap: 10px;
+  background-color: #ddd;
+  padding: 10px;
+}
 
-   /* Style the top navigation bar */
-   .menu {
-    overflow: hidden;
-    background-color: #333;
-    border-radius: 30px
-  }
-  
-  /* Style the topnav links */
-  .menu a {
-    float: none;
-    display: block;
-    color: #ddd;
-    text-align: center;
-    padding: 14px 14px;
-    text-decoration: none;
-    border-radius: 30px;
-    padding: 40px
-  }
-  
-  /* Change color on hover */
-  .menu a:hover {
-    background-color:#ddd;
-    color: black;
-  }
+/* Style the top navigation bar */
+.menu {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 30px;
+}
 
+/* Style the topnav links */
+.menu a {
+  float: none;
+  display: block;
+  color: #ddd;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+/* Change color on hover */
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 h1 {
-    color: black;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 300%;
-    text-align: center;
-    }
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  text-align: center;
+}
 
-    h1.author {
-      color: black;
-      font-family:Arial, Helvetica, sans-serif;
-      font-size: 300%;
-      text-align: left;
-      }
+h1.author {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  text-align: left;
+}
 h2 {
-    color: black;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 200%;
-    text-align: center;
-    margin-top: 4em; 
-    }
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  text-align: center;
+  margin-top: 4em;
+}
 
-    h2.author{
-      color: black;
-      font-family:Arial, Helvetica, sans-serif;
-      font-size: 200%;
-      text-align: left;
-      margin-top: 4em; 
-      }
+h2.author {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  text-align: left;
+  margin-top: 4em;
+  margin-left: 2em
+}
 
 p {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 160%;
-    text-align: left;
-} 
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 160%;
+  text-align: center;
+}
 p.author {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 160%;
   text-align: left;
-} 
-  
-  img {
-    width: 100%;
-    border-radius: 10px;
-    margin-right: 10px;
-    padding: 20px;
-  }
+  padding-left: 5%; 
+  padding-right: 5%
+}
 
+p.texts {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 160%;
+  text-align: left;
+  padding-left: 15%; 
+  padding-right: 15%;
+}
+
+h3.texts {
+  text-align: left;
+  font-size: 160% ;
+  padding-left: 15%; 
+  padding-right: 15%;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 20px;
+}
 
 /* SINGLE TEXTS page */
 
-
-.Lat { grid-area: testoLat; 
+.Lat {
+  grid-area: testoLat;
   background-color: #ddd;
   padding: 50px;
-  font-size: 20px;   
+  font-size: 20px;
   text-align: left;
+}
 
-  }
-
-.It { grid-area: testoIt; 
+.It {
+  grid-area: testoIt;
   background-color: #cbcaca;
   text-align: left;
   padding: 50px;
-  font-size: 20px;   
+  font-size: 20px;
 }
 
-.tenda { grid-area: tenda; 
-  background-color:#acaaaa;
+.tenda {
+  grid-area: tenda;
+  background-color: #acaaaa;
   border-radius: 20px;
   text-align: left;
-  padding: 50px;
-  }
+  padding: 15px;
+}
 
 .grid-container-author {
   display: grid;
-  grid-template-areas:
-      'testoLat testoIt tenda'
-      'testoLat testoIt tenda'
-      'testoLat testoIt tenda'
-      'testoLat testoIt tenda'
-      'testoLat testoIt tenda'
-      'testoLat testoIt tenda'
-      'testoLat testoIt tenda'
-      'testoLat testoIt tenda'
-      'testoLat testoIt tenda'
-      'testoLat testoIt tenda'
-      'testoLat testoIt tenda';
+  grid-template-areas: "testoLat testoLat testoIt testoIt testoIt tenda";
   gap: 10px;
   background-color: #ddd;
   padding: 10px;
-  }
+}
 
+p.boxes {
+  text-align: left;
+  flex-flow: row nowrap;
+  align-content: left;
+  align-items: left;
+}
 
+p.boxes a {
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-size: inherit;
+}
 
+a {
+  font-size: inherit;
+  color: blue;
+}
 
+.modal {
+  position: right;
+  float: block;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  /*flex-flow: column nowrap;*/
+  align-content: left;
+  align-items: left;
+  justify-content: left;
+  padding: 10px;
+  background: #ddd;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
 
-  /* Style the footer */
+/* Modal Content << IN PIù*/
+.modal-content {
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal p{
+  text-align: left;
+  flex-flow: row nowrap;
+  align-content: left;
+  align-items: left;
+}
+
+/* The Close Button */
+.modal a.close {
+  color: #aaaaaa;
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Style the footer */
 .footer {
-    background-color: #f1f1f1;
-    padding: 30px;
-  }
-
-  /*
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  } 
-  
-    Style the footer
-    .footer {
-        background-color: #f1f1f1;
-        padding: 10px;
-      }
-      */
-  
+  background-color: #f1f1f1;
+  padding: 30px;
+  margin-top: 10px;
+}
